@@ -29,4 +29,4 @@ forward_port_if_not_forwarded $KUBERNETES_API_PORT
 ./wait-for-kubernetes.sh
 ./create-kube-system-namespace.sh
 ./activate-dns.sh
-./activate-kube-ui.sh
+./activate-kube-dashboard.sh
